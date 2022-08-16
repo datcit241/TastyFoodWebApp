@@ -9,38 +9,24 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>TastyFoodWebApplication</artifactId>
+    <artifactId>TastyFoodWebApp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>TastyFoodWebApplication</name>
-    <description>TastyFoodWebApplication</description>
+    <name>TastyFoodWebApp</name>
+    <description>TastyFoodWebApp</description>
     <properties>
         <java.version>18</java.version>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-web-api</artifactId>
-            <version>8.0.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>5.3.22</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jdbc</artifactId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -56,7 +42,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.session</groupId>
-            <artifactId>spring-session-jdbc</artifactId>
+            <artifactId>spring-session-core</artifactId>
         </dependency>
 
         <dependency>

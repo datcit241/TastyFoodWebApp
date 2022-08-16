@@ -118,7 +118,7 @@
 										<fieldset>
 											<h2>Sign in</h2>
 											<span>or <a href="#" class="sign-up">Create Account</a></span>
-											<form method="post" action="#">
+											<form method="post" action="login">
 												<div class="mb-3 row">
 													<label for="staticEmail" class="col-sm-4 col-form-label" >User</label>
 													<div class="col-sm-8">
